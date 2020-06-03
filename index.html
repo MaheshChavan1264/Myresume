@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Materialize - Compiled and minified CSS-->
+    <link
+      rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/css/materialize.min.css"
+    />
+    <!-- Font Awesome Icon - CSS-->
+    <link
+      rel="stylesheet"
+      href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"
+    />
+    <title>My Portfolio</title>
+    <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="apple-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="apple-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="apple-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="apple-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="apple-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="apple-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="apple-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="apple-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="apple-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="android-icon-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="favicon-96x96.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="favicon-16x16.png"
+    />
+    <link rel="manifest" href="manifest.json" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta
+      name="msapplication-TileImage"
+      content="ms-icon-144x144.png"
+    />
+    <meta name="theme-color" content="#ffffff" />
+    <!--if lt IE 9script(src='//html5shim.googlecode.com/svn/trunk/html5.js')
+	-->
+    <meta name="robots" content="index, follow" />
+  </head>
+  <body>
+    <!-- Custom Styles-->
+<link rel="stylesheet" href="style.css" />
+<!-- Navigation Menu-->
+<nav class="hide-on-small-only">
+  <ul class="side-nav fixed section table-of-contents">
+    <li class="logo">
+      <a
+        id="logo-container"
+        aria-label="Navigate to the beginning of the page"
+        href="#intro"
+        class="brand-logo teal-text"
+      >
+        <h1>
+          <b>Ankita Mahesh Salunke</b><span class="brown-text light"
+            ></span
+          >
+        </h1></a
+      >
+    </li>
+    <li class="bold">
+      <a
+        aria-label="Navigate to the About section"
+        href="#about"
+        class="waves-effect waves-dark teal-text"
+        ><i class="mdi-social-person small"></i><span>About</span></a
+      >
+    </li>
+    <li class="bold">
+      <a
+        aria-label="Navigate to the Skills section"
+        href="#skills"
+        class="waves-effect waves-dark purple-text"
+        ><i class="mdi-av-equalizer small"></i><span>Skills</span></a
+      >
+    </li>
+    
+    <li class="bold">
+      <a
+        aria-label="Navigate to the Education section"
+        href="#education"
+        class="waves-effect waves-dark orange-text"
+        ><i class="mdi-social-school small"></i><span>Education</span></a
+      >
+    </li>
+    <li class="bold">
+        <a
+          aria-label="Navigate to the Awards section"
+          href="#awards"
+          class="waves-effect waves-dark red-text"
+          ><i class="mdi-action-grade small"></i><span>Personal Details</span></a
+        >
+      </li>
+    <li class="bold">
+      <a
+        aria-label="Navigate to the Contact section"
+        href="#contact"
+        class="waves-effect waves-dark brown-text"
+        ><i class="mdi-content-mail small"></i><span>Contact</span></a
+      >
+    </li>
+    <li class="bold">
+      <a
+        aria-label="Open Ankita's resume in a new tab"
+        href="https://drive.google.com/file/d/1mylQNcq36A9a_GFCALrsRPffGiYPFLh2/view?usp=sharing"
+        target="_blank"
+        class="waves-effect waves-dark grey-text text-darken-3"
+        ><i class="mdi-action-description small"></i><span>Resume</span></a
+      >
+    </li>
+  </ul>
+</nav>
+<nav class="hide-on-large only trigger z-depth-1">
+  <a
+    aria-label="Toggle visibility of the mobile navbar"
+    href="#"
+    data-activates="slide-out"
+    class="button-collapse"
+    ><i class="mdi-navigation-menu"></i
+  ></a>
+  <div class="name-title">
+    <a
+      id="name"
+      aria-label="Navigate to the beginning of the page"
+      href="#main"
+      class="teal-text"
+      >Ankita Mahesh Sunke</a
+    ><span class="brown-text light">Studying Full Stack Development</span>
+  </div>
+</nav>
+<nav class="hide-on-large only">
+  <ul id="slide-out" class="side-nav">
+    <li class="bold">
+      <a
+        aria-label="Navigate to the About section"
+        href="#about"
+        class="waves-effect waves-dark teal-text"
+        ><i class="mdi-social-person small"></i><span>About</span></a
+      >
+    </li>
+    
+    <li class="bold">
+      <a
+        aria-label="Navigate to the Projects section"
+        href="#projects"
+        class="waves-effect waves-dark indigo-text"
+        ><i class="mdi-av-web small"></i><span>Projects</span></a
+      >
+    </li>
+    <li class="bold">
+      <a
+        aria-label="Navigate to the Skills section"
+        href="#skills"
+        class="waves-effect waves-dark purple-text"
+        ><i class="mdi-av-equalizer small"></i><span>Skills</span></a
+      >
+    </li>
+    <li class="bold">
+      <a
+        aria-label="Navigate to the Awards section"
+        href="#awards"
+        class="waves-effect waves-dark red-text"
+        ><i class="mdi-action-grade small"></i><span>Personal Details</span></a
+      >
+    </li>
+    <li class="bold">
+      <a
+        aria-label="Navigate to the Education section"
+        href="#education"
+        class="waves-effect waves-dark orange-text"
+        ><i class="mdi-social-school small"></i><span>Education</span></a
+      >
+    </li>
+    <li class="bold">
+      <a
+        aria-label="Navigate to the Contact section"
+        href="#contact"
+        class="waves-effect waves-dark brown-text"
+        ><i class="mdi-content-mail small"></i><span>Contact</span></a
+      >
+    </li>
+    <li class="bold">
+      <a
+        aria-label="Navigate to the Contact section"
+        href="#blog"
+        class="waves-effect waves-dark yellow-text text-dark-3"
+        ><i class="mdi-content-mail small"></i><span>Blog</span></a
+      >
+    </li>
+    <li class="bold">
+      <a
+        aria-label="Open Ankita's Resume in a new tab"
+        href="https://drive.google.com/file/d/1mylQNcq36A9a_GFCALrsRPffGiYPFLh2/view?usp=sharing"
+        target="_blank"
+        class="waves-effect waves-dark grey-text text-darken-3"
+        ><i class="mdi-action-description small"></i><span>Resume</span></a
+      >
+    </li>
+  </ul>
+</nav>
+<!-- Main Content-->
+<main>
+  <section id="intro" class="section scrollspy full-height">
+    <div class="overlay"></div>
+    <div class="container">
+      <h2>
+        I want to <span class="teal">make things</span><br />that
+        <span class="underline">which makes easier for everyone.</span>.
+      </h2>
+    </div>
+  </section>
+  <section id="about" class="section scrollspy">
+    <h3 class="page-title white-text teal">About</h3>
+    <div class="container flow-text">
+      <blockquote>
+        <h2>
+          
+        </h2>
+      </blockquote>
+      <p>
+        </p>
+      <p>
+      </p>
+      <!-- <p>
+        <strong>Current Focus</strong>:&nbsp;<a
+          aria-label="Navigate to the Inclusive Design Patterns homepage"
+          href="https://www.smashingmagazine.com/inclusive-design-patterns/"
+          >Nodejs</a
+        >&nbsp;//&nbsp;<a
+          aria-label="Navigate to the Full Stack React homepage"
+          href="https://www.fullstackreact.com/"
+          >React</a
+        >&nbsp;//&nbsp;<a
+          aria-label='Navigate to the article "Scalable CSS"'
+          href="https://mrmrs.github.io/writing/2016/03/24/scalable-css/"
+          >Design Web application</a
+        >
+        <a
+          aria-label="Navigate to the Full Stack React homepage"
+          href="https://www.fullstackreact.com/"
+          >Ruby on Rails</a>
+      </p> -->
+    </div>
+  </section>
+  <section id="skills" class="section scrollspy">
+    <h3 class="page-title white-text teal">Skills</h3>
+    <div class="container">
+        <div class="card">
+            <div class="card-content">
+              <h4 class="brown-text light">Development</h4>
+              <div class="row text-center">
+                <div class="col s4 m2">
+                  <img
+                    alt=""
+                    src="python.jpg"
+                    class="responsive-img"
+                  />Python
+                </div>
+                <div class="col s4 m2">
+                  <img
+                    alt=""
+                    src="java.png"
+                    class="responsive-img"
+                  />Java
+                </div>    
+            </div>
+            </div>
+          </div>
+      <div class="card">
+        <div class="card-content">
+          <h4 class="brown-text light">Development Tools</h4>
+          <div class="row text-center">
+            <div class="col s4 m2">
+              <img
+                alt=""
+                src="web.png"
+                class="responsive-img"
+              />WebStrom
+            </div>              
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-content">
+          <h4 class="brown-text light">Operating Systems</h4>
+          <div class="row text-center">
+            <div class="col s4 m2">
+              <img
+                alt=""
+                src="ubuntu.png"
+                class="responsive-img"
+              />Ubuntu
+            </div>
+              <div class="col s4 m2">
+                <img
+                  alt=""
+                  src="10.png"
+                  class="responsive-img"
+                />Windows 10
+              </div>  
+          </div>
+        </div>
+      </div>
+      
+      <div class="card">
+        <div class="card-content">
+          <h4 class="brown-text light">Other</h4>
+          <div class="row text-center">
+            <div class="col s4 m2">
+              <img
+                alt=""
+                src="github.png"
+                class="responsive-img"
+              />Github
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="education" class="section scrollspy">
+    <h3 class="page-title white-text teal">Education</h3>
+    <div class="container">
+      <div class="row">
+        <div class="col s12 m6">
+          <div class="card">
+            <div class="card-content">
+              <p>
+                <span class="card-title"
+                  ><a href="https://www.mitaoe.ac.in/" class="teal-text hoverline"
+                    >Walcand Intstitute of Technology</a
+                  ></span
+                >
+              </p>
+              <p class="brown-text">Solapur, Maharashtra</p>
+              <ul>
+                <li>B.E. Electronics and Telecommunications Engineering</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6">
+          <div class="card">
+            <div class="card-content">
+              <p>
+                <span class="card-title"
+                  ><a href="http://svitsolapur.org/" class="teal-text hoverline"
+                    >Swami Vivekanand Institute of Technology</a></span>
+                  </span
+                >
+              </p>
+              <p class="brown-text">Solapur, Maharashtra</p>
+              <ul>
+                <li>Diploma Electronics and Telecommunications Engineering</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12 m6">
+          <div class="card">
+            <div class="card-content">
+              <p>
+                <span class="card-title"
+                  ><a href="https://www.mitaoe.ac.in/" class="teal-text hoverline"
+                    >Shri Digamber Jain Gurukul Prashala Solapur</a
+                  ></span
+                >
+              </p>
+              <p class="brown-text">Solapur, Maharashtra</p>
+              <ul>
+                <li>S.S.C</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="awards" class="section scrollspy">
+    <h3 class="page-title white-text teal">Personal Details</h3>
+    <div class="container">
+      <div class="row">
+        <div class="col s12 m6">
+          <div class="card">
+            <div class="card-content">
+              <p>
+                <span class="card-title"
+                  ><a
+                    target="_blank"
+                    class="teal-text hoverline"
+                    >About Me</a
+                  ></span
+                >
+              </p>
+              <ul>
+                <li>
+                    <b>Gender</b>: Female
+
+                </li>
+                <li>
+                    <b>Marital Status:</b>Unmarried
+                </li>
+                <li>
+                    <b>Date of Birth:</b> Aug. 22, 1998
+                </li>
+                <li>
+                    <b>Known Languages:</b>Marathi, Hindi, English
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6">
+          <div class="card">
+            <div class="card-content">
+              <p>
+                <span class="card-title"
+                  ><a class="teal-text hoverline"
+                    >Personal Interests/ Hobbies</a
+                  ></span
+                >
+              </p>
+              <ul>
+                <li>
+                    Sketching    
+                </li>
+                <li>
+                    Article Writing    
+                </li>
+                <li>
+                    Listening Music    
+                </li>
+                <li>
+                  Yoga    
+              </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12 m6">
+          <div class="card">
+            <div class="card-content">
+              <p>
+                <span class="card-title"
+                  ><a
+                    class="teal-text hoverline"
+                    >Permanent Address</a
+                  ></span
+                >
+              </p>
+              <ul>
+                7/9 Yashwant Nagar, Behind Swati Marathi Vidyalay, Bale , Solapur , Maharashtra , India</ul>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6">
+          <div class="card">
+            <div class="card-content">
+              <p>
+                <span class="card-title"
+                  ><a
+                    target="_blank"
+                    class="teal-text hoverline"
+                    >Emails</a
+                  ></span
+                >
+              </p>
+              <ul>
+                <li>
+                  <b>amsalunke22@gmail.com</b>
+                </li>
+                </ul>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+  <section id="contact" class="section scrollspy full-height">
+    <h3 class="page-title white-text teal">Contact</h3>
+    <div class="container">
+      <p>
+        <a
+          aria-label="Email Ankita"
+          href="mailto:amsalunke22@gmail.com"
+          data-position="top"
+          data-tooltip="Email Ankita"
+          class="btn-floating btn-large waves-effect waves-light brown tooltipped"
+          ><i class="fa fa-envelope"></i
+          ><a
+            aria-label="Email Ankita"
+            href="mailto:amsalunke22@gmail.com"
+            class="hoverline"
+            >amsalunke22@gmail.com</a
+          ></a
+        >
+      </p>
+      <p>
+        <a
+          aria-label="View Ankita on GitHub"
+          href="https://github.com/amsalunke22"
+          target="_blank"
+          data-position="top"
+          data-tooltip="View Ankita on GitHub"
+          class="btn-floating btn-large waves-effect waves-light brown tooltipped"
+          ><i class="fa fa-github"></i
+          ><a
+            aria-label="Ankita on Github"
+            href="https://github.com/amsalunke22"
+            class="hoverline"
+            >github.com/amsalunke22</a
+          ></a
+        >
+      </p>
+      <p>
+        <a
+          aria-label="View Ankita on LinkedIn"
+          href="https://www.linkedin.com/in/ankita-salunke-b15833167/
+          target="_blank"
+          data-position="top"
+          data-tooltip="View Ankita on LinkedIn"
+          class="btn-floating btn-large waves-effect waves-light brown tooltipped"
+          ><i class="fa fa-linkedin"></i
+          ><a
+            aria-label="Ankita on LinkedIn"
+            href="https://www.linkedin.com/in/ankita-salunke-b15833167/"
+            class="hoverline"
+            >https://www.linkedin.com/in/ankita-salunke-b15833167/</a
+          ></a
+        >
+      </p>
+    </div>
+  </section>
+  </main>
+    <script>
+      var analyticsId;
+      if (analyticsId) {
+        initGoogleAnalytics(analyticsId);
+      } else {
+        fetch("/.netlify/functions/env_vars")
+          .then(getEnvVar)
+          .then(initGoogleAnalytics)
+          .catch(handleError);
+      }
+      function handleError(error) {
+        console.log("error", error);
+      }
+
+      function getEnvVar(response) {
+        if (response.ok) {
+          return response.text();
+        } else {
+          return Promise.reject(response);
+        }
+      }
+      function initGoogleAnalytics(analyticsId) {
+        if (analyticsId) {
+          analyticsUrl =
+            "https://www.googletagmanager.com/gtag/js?id=UA-" + analyticsId;
+          var ref = document.getElementsByTagName("script")[0];
+          var script = document.createElement("script");
+          script.src = analyticsUrl;
+          ref.parentNode.insertBefore(script, ref);
+          window.dataLayer = window.dataLayer || [];
+          function gtag() {
+            dataLayer.push(arguments);
+          }
+          gtag("js", new Date());
+          gtag("config", "UA-" + analyticsId);
+        }
+      }
+    </script>
+    <!-- jQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+    <!-- Materialize - Compiled and minified JavaScript-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/js/materialize.min.js"></script>
+    <script>
+      // Materialize - Initializers
+      $(document).ready(function () {
+        $(".scrollspy").scrollSpy();
+        // Initialize collapse button
+        $(".button-collapse").sideNav({
+          menuWidth: 190, // Default is 240
+          edge: "left", // Choose the horizontal origin
+          closeOnClick: true, // Closes side-nav on <a> clicks, useful for Angular/Meteor
+        });
+      });
+    </script>
+  </body>
+</html>
